@@ -1,0 +1,39 @@
+.header{
+  background:#00B887;
+}
+.leftmenu,.social_media{
+  list-style:none;
+  text-decoration:none;
+
+}
+.leftmenu li{
+  diplay:inline;
+  float:left;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  font-size:20px;
+  color:#333;
+}
+.jumbotron{
+  background:#0E2A36;
+  color:#fff;
+  height:300px;
+}
+
+.btn-main {
+  background-color: #FB8D00;
+  color: #fff;
+   padding: 16px 40px;
+  text-decoration: none;
+  margin-top:40px;
+  float:right;
+}
+  .footer {
+    background-color: #fff;
+    height: 100px;
+    text-align: right;
+    width: 100%;
+    color:#333;
+}
