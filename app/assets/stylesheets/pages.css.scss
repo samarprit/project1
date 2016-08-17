@@ -1,5 +1,4 @@
 .jumbotron{
-  /*background-image:url(<%= image_tag "wallpaper2.jpg" %>);*/
   background:#0E2A36;
   color:#fff;
   height:300px;
@@ -12,4 +11,12 @@
   text-decoration: none;
   margin-top:40px;
   float:right;
+}
+.col-md-6 {
+    width: 50%;
+  float:left;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Portfolio</title>
+  <link rel="stylesheet" href="/assets/unslider.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -16,11 +17,11 @@
     <div class="row"> 
       <div class="menu col-xs-10"> 
         <ul class="leftmenu"> 
-          <li><a href="/">Welcome</a></li>
-          <li><a href="portfolio">Portfolio</a></li> 
-          <li><a href="Blog">Blog</a></li> 
-          <li><a href="about">About</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><%= link_to "Welcome", root_path %></li>
+          <li><%=link_to "Portfolio",portfolio_path %></li> 
+          <li>Blog</li> 
+          <li>About</li>
+          <li>Contact</li>
         </ul> 
       </div> 
       <div class="name col-xs-2"> 
@@ -28,7 +29,7 @@
       </div> 
     </div> 
   </div>
-</div>
+  </div>
 <%= yield %>
 <div class="footer"> 
   <div class="container"> 
